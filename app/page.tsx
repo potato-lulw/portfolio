@@ -6,12 +6,13 @@ import Projects from '@/components/projects'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center  px-4 h-[2000px]">
+    <main className="flex min-h-screen flex-col items-center  px-4 ">
       <Intro/>
       <SectionDivider/>
       <About/>
       <SectionDivider/>
       <Projects/>
+      <SectionDivider/>
     </main>
   )
 }
